@@ -89,7 +89,6 @@ for (let i = 0; i < arrayPets.length; i++) {
 
   // ADD A CLASS card à div criada
   card.classList.add("card");
-
   // PASSANDO CONTEUDO AO NOSSO CARD
   card.innerHTML = `
     <img src=${arrayPets[i].imagem} />
